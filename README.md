@@ -12,13 +12,17 @@ https://mzohaibqc.github.io/svelte-toasts/
 
 #### Flat Toast
 
-<img src="./site/public/images/flat-dark.png" width="320px" alt="Light theme toasts">
-<img src="./site/public/images/flat-light.png" width="320px" alt="Dark theme toasts">
+<p float="left">
+    <img src="./site/public/images/flat-dark.png" width="320px" alt="Light theme toasts">
+    <img src="./site/public/images/flat-light.png" width="320px" alt="Dark theme toasts">
+</p>
 
 #### Bootstrap Toast
 
-<img src="./site/public/images/bootstrap-dark.png" width="320px" alt="Light theme toasts">
-<img src="./site/public/images/bootstrap-light.png" width="320px" alt="Dark theme toasts">
+<p float="left">
+    <img src="./site/public/images/bootstrap-dark.png" width="320px" alt="Light theme toasts">
+    <img src="./site/public/images/bootstrap-light.png" width="320px" alt="Dark theme toasts">
+</p>
 
 ## Install
 
