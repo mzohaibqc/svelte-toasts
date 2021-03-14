@@ -8280,7 +8280,7 @@ var app = (function () {
 
     	code1 = new Code({
     			props: {
-    				code: `    import toasts, { ToastContainer, BootstrapToast }  from "svelte-toasts";
+    				code: `    import { toasts, ToastContainer, BootstrapToast }  from "svelte-toasts";
     
     const showToast = () => {
       const toast = toasts.add({
@@ -9109,7 +9109,7 @@ var app = (function () {
 
     	code1 = new Code({
     			props: {
-    				code: `    import toasts, { ToastContainer, FlatToast }  from "svelte-toasts";
+    				code: `    import { toasts, ToastContainer, FlatToast }  from "svelte-toasts";
     
     const showToast = () => {
       const toast = toasts.add({
@@ -12241,7 +12241,7 @@ var app = (function () {
     			props: {
     				class: "my-5",
     				code: `
-    import toasts from 'svelte-toasts';
+    import { toasts } from 'svelte-toasts';
   
     toasts.setDefaults({
       theme: 'light',
@@ -12282,7 +12282,7 @@ var app = (function () {
     			props: {
     				class: "my-5",
     				code: `
-      import toasts, { ToastContainer } from 'svelte-toasts';
+      import { toasts, ToastContainer } from 'svelte-toasts';
     
       <ToastContainer {toasts} placement="top-right" let:data>
         <FlatToast {data} />
@@ -12373,13 +12373,13 @@ var app = (function () {
     			add_location(h1, file$4, 67, 2, 2108);
     			attr_dev(p0, "class", "space-5");
     			add_location(p0, file$4, 71, 2, 2211);
-    			add_location(i, file$4, 101, 13, 2828);
-    			add_location(b0, file$4, 101, 10, 2825);
-    			add_location(b1, file$4, 101, 57, 2872);
-    			add_location(p1, file$4, 100, 2, 2811);
-    			add_location(p2, file$4, 108, 2, 3176);
-    			add_location(b2, file$4, 123, 20, 3561);
-    			add_location(p3, file$4, 122, 2, 3537);
+    			add_location(i, file$4, 101, 13, 2832);
+    			add_location(b0, file$4, 101, 10, 2829);
+    			add_location(b1, file$4, 101, 57, 2876);
+    			add_location(p1, file$4, 100, 2, 2815);
+    			add_location(p2, file$4, 108, 2, 3180);
+    			add_location(b2, file$4, 123, 20, 3565);
+    			add_location(p3, file$4, 122, 2, 3541);
     			attr_dev(div, "class", "p-5 mb-20");
     			add_location(div, file$4, 66, 0, 2082);
     		},
@@ -12741,7 +12741,7 @@ var app = (function () {
 
     	code2 = new Code({
     			props: {
-    				code: `  import toasts, { ToastContainer, FlatToast }  from "svelte-toasts";
+    				code: `  import { toasts, ToastContainer, FlatToast }  from "svelte-toasts";
   
   const showToast = () => {
     const toast = toasts.add({
@@ -13148,7 +13148,7 @@ var app = (function () {
     			props: {
     				class: "my-5",
     				code: `
-  import toasts, { ToastContainer, FlatToast }  from "svelte-toasts";
+  import { toasts, ToastContainer, FlatToast }  from "svelte-toasts";
 
   const showToast = () => {
     const toast = toasts.add({
@@ -13671,7 +13671,7 @@ var app = (function () {
 
     	code1 = new Code({
     			props: {
-    				code: `    import toasts, { ToastContainer }  from "svelte-toasts";
+    				code: `    import { toasts, ToastContainer }  from "svelte-toasts";
     
     const showToast = () => {
       const toast = toasts.add({
@@ -13755,7 +13755,7 @@ var app = (function () {
 
     	code7 = new Code({
     			props: {
-    				code: `    import toasts, { ToastContainer }  from "svelte-toasts";
+    				code: `    import { toasts, ToastContainer }  from "svelte-toasts";
     import MyToast from './MyToast.svelte';
     // import path might be different based on location of your component
     
