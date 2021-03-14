@@ -1,0 +1,9 @@
+{
+	"files.autoSave": "onFocusChange",
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"svelte.language-server.runtime": "/usr/local/bin/node"
+}

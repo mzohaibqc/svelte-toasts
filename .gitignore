@@ -1,0 +1,10 @@
+.DS_Store
+**/dist/**
+**/package/**
+**/node_modules/**
+**/public/bundle.*
+/storybook-static
+
+cypress/videos
+cypress/screenshots
+*.tgz
