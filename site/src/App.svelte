@@ -11,6 +11,7 @@
   import StoreDocs from './pages/StoreDocs.svelte';
   import ToastDocs from './pages/ToastDocs.svelte';
   import ToastContainerDocs from './pages/ToastContainerDocs.svelte';
+  import CustomToastDocs from './pages/CustomToastDocs.svelte';
   import isXs from './stores/isXs';
 
   const ROOT_URL = '/svelte-toasts';
@@ -157,6 +158,9 @@
       </Route>
       <Route path="bootstrap-toast">
         <BootstrapToastDocs />
+      </Route>
+      <Route path="custom-toast">
+        <CustomToastDocs />
       </Route>
     </main>
   </div>

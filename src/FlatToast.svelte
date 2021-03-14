@@ -1,5 +1,5 @@
 <script>
-  import { onMount, afterUpdate } from 'svelte';
+  import { onMount } from 'svelte';
   import { tweened } from 'svelte/motion';
   import { linear } from 'svelte/easing';
 
