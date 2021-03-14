@@ -8,6 +8,8 @@ A highly configurable toast/notification component with individual toast state m
 
 https://mzohaibqc.github.io/svelte-toasts/
 
+REPL: https://svelte.dev/repl/ff34bad88213493ab878c71497c01152?version=3.35.0
+
 ## <img src="./site/public/images/dynamic-toast.gif" alt="Dynamic Toast">
 
 #### Flat Toast

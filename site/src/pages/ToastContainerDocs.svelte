@@ -89,7 +89,7 @@
   <Code
     class="my-5"
     code={`
-  import toasts, { ToastContainer, FlatToast }  from "svelte-toasts";
+  import { toasts, ToastContainer, FlatToast }  from "svelte-toasts";
 
   const showToast = () => {
     const toast = toasts.add({

@@ -35,7 +35,7 @@
   <script>`}
   />
   <Code
-    code={`    import toasts, { ToastContainer, BootstrapToast }  from "svelte-toasts";
+    code={`    import { toasts, ToastContainer, BootstrapToast }  from "svelte-toasts";
     
     const showToast = () => {
       const toast = toasts.add({

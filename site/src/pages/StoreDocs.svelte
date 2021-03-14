@@ -95,7 +95,7 @@
   <Code
     class="my-5"
     code={`
-    import toasts from 'svelte-toasts';
+    import { toasts } from 'svelte-toasts';
   
     toasts.setDefaults({
       theme: 'light',
@@ -132,7 +132,7 @@
     <Code
       class="my-5"
       code={`
-      import toasts, { ToastContainer } from 'svelte-toasts';
+      import { toasts, ToastContainer } from 'svelte-toasts';
     
       <ToastContainer {toasts} placement="top-right" let:data>
         <FlatToast {data} />

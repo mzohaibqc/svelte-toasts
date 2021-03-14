@@ -37,7 +37,7 @@
   <script>`}
   />
   <Code
-    code={`    import toasts, { ToastContainer }  from "svelte-toasts";
+    code={`    import { toasts, ToastContainer }  from "svelte-toasts";
     
     const showToast = () => {
       const toast = toasts.add({
@@ -102,7 +102,7 @@
   <script>`}
   />
   <Code
-    code={`    import toasts, { ToastContainer }  from "svelte-toasts";
+    code={`    import { toasts, ToastContainer }  from "svelte-toasts";
     import MyToast from './MyToast.svelte';
     // import path might be different based on location of your component
     
