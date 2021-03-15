@@ -10783,7 +10783,7 @@ var app = (function () {
     const { console: console_1 } = globals;
     const file$5 = "src/pages/Demo.svelte";
 
-    // (92:10) <Button autoFocus on:click={addToast}>
+    // (92:10) <Button on:click={addToast}>
     function create_default_slot_1$4(ctx) {
     	let t;
 
@@ -10803,7 +10803,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$4.name,
     		type: "slot",
-    		source: "(92:10) <Button autoFocus on:click={addToast}>",
+    		source: "(92:10) <Button on:click={addToast}>",
     		ctx
     	});
 
@@ -11128,7 +11128,6 @@ var app = (function () {
 
     	button0 = new Button({
     			props: {
-    				autoFocus: true,
     				$$slots: { default: [create_default_slot_1$4] },
     				$$scope: { ctx }
     			},
@@ -11342,207 +11341,207 @@ var app = (function () {
     			attr_dev(label2, "class", "block text-left");
     			add_location(label2, file$5, 79, 8, 2010);
     			attr_dev(button1, "class", "ring ring-red-600 focus:ring-offset-1 ring-offset-red-100 h-8 px-4 bg-red-600 focus:bg-red-600 border-0 focus:outline-none text-white");
-    			add_location(button1, file$5, 93, 10, 2697);
+    			add_location(button1, file$5, 93, 10, 2687);
     			attr_dev(button2, "class", "ring ring-red-600 focus:ring-offset-1 ring-offset-red-100 h-8 px-4 bg-red-600 focus:bg-red-600 border-0 focus:outline-none text-white");
-    			add_location(button2, file$5, 97, 10, 2938);
+    			add_location(button2, file$5, 97, 10, 2928);
     			attr_dev(div0, "class", "flex space-x-4 flex-row align-center mt-4");
     			add_location(div0, file$5, 90, 8, 2350);
     			add_location(div1, file$5, 60, 6, 1419);
     			attr_dev(span3, "class", "text-gray-800 font-bold mt-4 block");
-    			add_location(span3, file$5, 106, 12, 3290);
+    			add_location(span3, file$5, 106, 12, 3280);
     			attr_dev(input2, "type", "radio");
     			attr_dev(input2, "name", "toast-type");
     			input2.__value = "flat";
     			input2.value = input2.__value;
     			/*$$binding_groups*/ ctx[15][0].push(input2);
-    			add_location(input2, file$5, 111, 16, 3483);
+    			add_location(input2, file$5, 111, 16, 3473);
     			attr_dev(span4, "class", "ml-2");
-    			add_location(span4, file$5, 117, 16, 3664);
+    			add_location(span4, file$5, 117, 16, 3654);
     			attr_dev(label3, "class", "inline-flex items-center");
-    			add_location(label3, file$5, 110, 14, 3426);
+    			add_location(label3, file$5, 110, 14, 3416);
     			attr_dev(input3, "type", "radio");
     			attr_dev(input3, "name", "toast-type");
     			input3.__value = "bootstrap";
     			input3.value = input3.__value;
     			/*$$binding_groups*/ ctx[15][0].push(input3);
-    			add_location(input3, file$5, 120, 16, 3789);
+    			add_location(input3, file$5, 120, 16, 3779);
     			attr_dev(span5, "class", "ml-2");
-    			add_location(span5, file$5, 126, 16, 3975);
+    			add_location(span5, file$5, 126, 16, 3965);
     			attr_dev(label4, "class", "inline-flex items-center");
-    			add_location(label4, file$5, 119, 14, 3732);
-    			add_location(div2, file$5, 109, 12, 3406);
+    			add_location(label4, file$5, 119, 14, 3722);
+    			add_location(div2, file$5, 109, 12, 3396);
     			attr_dev(div3, "class", "mt-2");
-    			add_location(div3, file$5, 105, 10, 3259);
+    			add_location(div3, file$5, 105, 10, 3249);
     			attr_dev(div4, "class", "block text-left");
-    			add_location(div4, file$5, 104, 8, 3219);
+    			add_location(div4, file$5, 104, 8, 3209);
     			attr_dev(span6, "class", "text-gray-800 font-bold mt-4 block");
-    			add_location(span6, file$5, 133, 12, 4164);
+    			add_location(span6, file$5, 133, 12, 4154);
     			attr_dev(input4, "type", "radio");
     			attr_dev(input4, "name", "theme");
     			input4.__value = "dark";
     			input4.value = input4.__value;
     			/*$$binding_groups*/ ctx[15][1].push(input4);
-    			add_location(input4, file$5, 136, 16, 4315);
+    			add_location(input4, file$5, 136, 16, 4305);
     			attr_dev(span7, "class", "ml-2");
-    			add_location(span7, file$5, 142, 16, 4487);
+    			add_location(span7, file$5, 142, 16, 4477);
     			attr_dev(label5, "class", "inline-flex items-center");
-    			add_location(label5, file$5, 135, 14, 4258);
+    			add_location(label5, file$5, 135, 14, 4248);
     			attr_dev(input5, "type", "radio");
     			attr_dev(input5, "name", "theme");
     			input5.__value = "light";
     			input5.value = input5.__value;
     			/*$$binding_groups*/ ctx[15][1].push(input5);
-    			add_location(input5, file$5, 145, 16, 4612);
+    			add_location(input5, file$5, 145, 16, 4602);
     			attr_dev(span8, "class", "ml-2");
-    			add_location(span8, file$5, 151, 16, 4785);
+    			add_location(span8, file$5, 151, 16, 4775);
     			attr_dev(label6, "class", "inline-flex items-center");
-    			add_location(label6, file$5, 144, 14, 4555);
-    			add_location(div5, file$5, 134, 12, 4238);
+    			add_location(label6, file$5, 144, 14, 4545);
+    			add_location(div5, file$5, 134, 12, 4228);
     			attr_dev(div6, "class", "mt-2");
-    			add_location(div6, file$5, 132, 10, 4133);
+    			add_location(div6, file$5, 132, 10, 4123);
     			attr_dev(div7, "class", "block text-left");
-    			add_location(div7, file$5, 131, 8, 4093);
+    			add_location(div7, file$5, 131, 8, 4083);
     			attr_dev(span9, "class", "text-gray-800 font-bold mt-4 block");
-    			add_location(span9, file$5, 158, 12, 4970);
+    			add_location(span9, file$5, 158, 12, 4960);
     			attr_dev(input6, "type", "radio");
     			attr_dev(input6, "name", "placement");
     			input6.__value = "bottom-right";
     			input6.value = input6.__value;
     			/*$$binding_groups*/ ctx[15][2].push(input6);
-    			add_location(input6, file$5, 163, 16, 5162);
+    			add_location(input6, file$5, 163, 16, 5152);
     			attr_dev(span10, "class", "ml-2");
-    			add_location(span10, file$5, 169, 16, 5350);
+    			add_location(span10, file$5, 169, 16, 5340);
     			attr_dev(label7, "class", "inline-flex items-center");
-    			add_location(label7, file$5, 162, 14, 5105);
+    			add_location(label7, file$5, 162, 14, 5095);
     			attr_dev(input7, "type", "radio");
     			attr_dev(input7, "name", "placement");
     			input7.__value = "top-right";
     			input7.value = input7.__value;
     			/*$$binding_groups*/ ctx[15][2].push(input7);
-    			add_location(input7, file$5, 172, 16, 5483);
+    			add_location(input7, file$5, 172, 16, 5473);
     			attr_dev(span11, "class", "ml-2");
-    			add_location(span11, file$5, 178, 16, 5668);
+    			add_location(span11, file$5, 178, 16, 5658);
     			attr_dev(label8, "class", "inline-flex items-center");
-    			add_location(label8, file$5, 171, 14, 5426);
+    			add_location(label8, file$5, 171, 14, 5416);
     			attr_dev(input8, "type", "radio");
     			attr_dev(input8, "name", "placement");
     			input8.__value = "top-left";
     			input8.value = input8.__value;
     			/*$$binding_groups*/ ctx[15][2].push(input8);
-    			add_location(input8, file$5, 181, 16, 5798);
+    			add_location(input8, file$5, 181, 16, 5788);
     			attr_dev(span12, "class", "ml-2");
-    			add_location(span12, file$5, 187, 16, 5982);
+    			add_location(span12, file$5, 187, 16, 5972);
     			attr_dev(label9, "class", "inline-flex items-center");
-    			add_location(label9, file$5, 180, 14, 5741);
+    			add_location(label9, file$5, 180, 14, 5731);
     			attr_dev(input9, "type", "radio");
     			attr_dev(input9, "name", "placement");
     			input9.__value = "bottom-left";
     			input9.value = input9.__value;
     			/*$$binding_groups*/ ctx[15][2].push(input9);
-    			add_location(input9, file$5, 190, 16, 6111);
+    			add_location(input9, file$5, 190, 16, 6101);
     			attr_dev(span13, "class", "ml-2");
-    			add_location(span13, file$5, 196, 16, 6298);
+    			add_location(span13, file$5, 196, 16, 6288);
     			attr_dev(label10, "class", "inline-flex items-center");
-    			add_location(label10, file$5, 189, 14, 6054);
+    			add_location(label10, file$5, 189, 14, 6044);
     			attr_dev(input10, "type", "radio");
     			attr_dev(input10, "name", "placement");
     			input10.__value = "bottom-center";
     			input10.value = input10.__value;
     			/*$$binding_groups*/ ctx[15][2].push(input10);
-    			add_location(input10, file$5, 199, 16, 6430);
+    			add_location(input10, file$5, 199, 16, 6420);
     			attr_dev(span14, "class", "ml-2");
-    			add_location(span14, file$5, 205, 16, 6619);
+    			add_location(span14, file$5, 205, 16, 6609);
     			attr_dev(label11, "class", "inline-flex items-center");
-    			add_location(label11, file$5, 198, 14, 6373);
+    			add_location(label11, file$5, 198, 14, 6363);
     			attr_dev(input11, "type", "radio");
     			attr_dev(input11, "name", "placement");
     			input11.__value = "top-center";
     			input11.value = input11.__value;
     			/*$$binding_groups*/ ctx[15][2].push(input11);
-    			add_location(input11, file$5, 208, 16, 6753);
+    			add_location(input11, file$5, 208, 16, 6743);
     			attr_dev(span15, "class", "ml-2");
-    			add_location(span15, file$5, 214, 16, 6939);
+    			add_location(span15, file$5, 214, 16, 6929);
     			attr_dev(label12, "class", "inline-flex items-center");
-    			add_location(label12, file$5, 207, 14, 6696);
+    			add_location(label12, file$5, 207, 14, 6686);
     			attr_dev(input12, "type", "radio");
     			attr_dev(input12, "name", "placement");
     			input12.__value = "center-center";
     			input12.value = input12.__value;
     			/*$$binding_groups*/ ctx[15][2].push(input12);
-    			add_location(input12, file$5, 217, 16, 7070);
+    			add_location(input12, file$5, 217, 16, 7060);
     			attr_dev(span16, "class", "ml-2");
-    			add_location(span16, file$5, 223, 16, 7259);
+    			add_location(span16, file$5, 223, 16, 7249);
     			attr_dev(label13, "class", "inline-flex items-center");
-    			add_location(label13, file$5, 216, 14, 7013);
-    			add_location(div8, file$5, 161, 12, 5085);
+    			add_location(label13, file$5, 216, 14, 7003);
+    			add_location(div8, file$5, 161, 12, 5075);
     			attr_dev(div9, "class", "mt-2");
-    			add_location(div9, file$5, 157, 10, 4939);
+    			add_location(div9, file$5, 157, 10, 4929);
     			attr_dev(div10, "class", "block text-left");
-    			add_location(div10, file$5, 156, 8, 4899);
+    			add_location(div10, file$5, 156, 8, 4889);
     			attr_dev(span17, "class", "text-gray-800 font-bold mt-4 block");
-    			add_location(span17, file$5, 230, 12, 7452);
+    			add_location(span17, file$5, 230, 12, 7442);
     			attr_dev(input13, "type", "radio");
     			attr_dev(input13, "name", "type");
     			input13.__value = "success";
     			input13.value = input13.__value;
     			/*$$binding_groups*/ ctx[15][3].push(input13);
-    			add_location(input13, file$5, 233, 16, 7602);
+    			add_location(input13, file$5, 233, 16, 7592);
     			attr_dev(span18, "class", "ml-2");
-    			add_location(span18, file$5, 239, 16, 7775);
+    			add_location(span18, file$5, 239, 16, 7765);
     			attr_dev(label14, "class", "inline-flex items-center");
-    			add_location(label14, file$5, 232, 14, 7545);
+    			add_location(label14, file$5, 232, 14, 7535);
     			attr_dev(input14, "type", "radio");
     			attr_dev(input14, "name", "type");
     			input14.__value = "info";
     			input14.value = input14.__value;
     			/*$$binding_groups*/ ctx[15][3].push(input14);
-    			add_location(input14, file$5, 242, 16, 7903);
+    			add_location(input14, file$5, 242, 16, 7893);
     			attr_dev(span19, "class", "ml-2");
-    			add_location(span19, file$5, 248, 16, 8073);
+    			add_location(span19, file$5, 248, 16, 8063);
     			attr_dev(label15, "class", "inline-flex items-center");
-    			add_location(label15, file$5, 241, 14, 7846);
+    			add_location(label15, file$5, 241, 14, 7836);
     			attr_dev(input15, "type", "radio");
     			attr_dev(input15, "name", "type");
     			input15.__value = "error";
     			input15.value = input15.__value;
     			/*$$binding_groups*/ ctx[15][3].push(input15);
-    			add_location(input15, file$5, 251, 16, 8198);
+    			add_location(input15, file$5, 251, 16, 8188);
     			attr_dev(span20, "class", "ml-2");
-    			add_location(span20, file$5, 257, 16, 8369);
+    			add_location(span20, file$5, 257, 16, 8359);
     			attr_dev(label16, "class", "inline-flex items-center");
-    			add_location(label16, file$5, 250, 14, 8141);
+    			add_location(label16, file$5, 250, 14, 8131);
     			attr_dev(input16, "type", "radio");
     			attr_dev(input16, "name", "type");
     			input16.__value = "warning";
     			input16.value = input16.__value;
     			/*$$binding_groups*/ ctx[15][3].push(input16);
-    			add_location(input16, file$5, 260, 16, 8495);
+    			add_location(input16, file$5, 260, 16, 8485);
     			attr_dev(span21, "class", "ml-2");
-    			add_location(span21, file$5, 266, 16, 8668);
+    			add_location(span21, file$5, 266, 16, 8658);
     			attr_dev(label17, "class", "inline-flex items-center");
-    			add_location(label17, file$5, 259, 14, 8438);
-    			add_location(div11, file$5, 231, 12, 7525);
+    			add_location(label17, file$5, 259, 14, 8428);
+    			add_location(div11, file$5, 231, 12, 7515);
     			attr_dev(div12, "class", "mt-2");
-    			add_location(div12, file$5, 229, 10, 7421);
+    			add_location(div12, file$5, 229, 10, 7411);
     			attr_dev(div13, "class", "block text-left");
-    			add_location(div13, file$5, 228, 8, 7381);
+    			add_location(div13, file$5, 228, 8, 7371);
     			attr_dev(span22, "class", "text-gray-800 font-bold mt-4 block");
-    			add_location(span22, file$5, 273, 12, 8855);
+    			add_location(span22, file$5, 273, 12, 8845);
     			attr_dev(input17, "type", "checkbox");
     			attr_dev(input17, "name", "show-progress");
     			input17.__value = "flat";
     			input17.value = input17.__value;
-    			add_location(input17, file$5, 278, 16, 9081);
+    			add_location(input17, file$5, 278, 16, 9071);
     			attr_dev(span23, "class", "ml-2");
-    			add_location(span23, file$5, 284, 16, 9273);
+    			add_location(span23, file$5, 284, 16, 9263);
     			attr_dev(label18, "class", "inline-flex items-center");
-    			add_location(label18, file$5, 277, 14, 9024);
-    			add_location(div14, file$5, 276, 12, 9004);
+    			add_location(label18, file$5, 277, 14, 9014);
+    			add_location(div14, file$5, 276, 12, 8994);
     			attr_dev(div15, "class", "mt-2");
-    			add_location(div15, file$5, 272, 10, 8824);
+    			add_location(div15, file$5, 272, 10, 8814);
     			attr_dev(div16, "class", "block text-left");
-    			add_location(div16, file$5, 271, 8, 8784);
-    			add_location(div17, file$5, 103, 6, 3205);
+    			add_location(div16, file$5, 271, 8, 8774);
+    			add_location(div17, file$5, 103, 6, 3195);
     			attr_dev(div18, "class", "grid grid-cols-1 md:grid-cols-2 gap-6");
     			add_location(div18, file$5, 59, 4, 1361);
     			attr_dev(div19, "class", "mt-1");
@@ -14053,7 +14052,7 @@ var app = (function () {
     			attr_dev(path, "stroke-linejoin", "round");
     			attr_dev(path, "stroke-width", "2");
     			attr_dev(path, "d", "M4 6h16M4 12h16M4 18h16");
-    			add_location(path, file, 84, 12, 2447);
+    			add_location(path, file, 84, 12, 2456);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "fill", "#212121");
     			attr_dev(svg, "viewBox", "0 0 24 24");
@@ -14061,7 +14060,7 @@ var app = (function () {
     			attr_dev(svg, "width", "1em");
     			attr_dev(svg, "height", "1em");
     			attr_dev(svg, "class", "mr-2 text-xl cursor-pointer");
-    			add_location(svg, file, 72, 10, 2109);
+    			add_location(svg, file, 72, 10, 2118);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -14106,7 +14105,7 @@ var app = (function () {
     			attr_dev(path, "stroke-linejoin", "round");
     			attr_dev(path, "stroke-width", "2");
     			attr_dev(path, "d", "M4 6h16M4 12h16m-7 6h7");
-    			add_location(path, file, 64, 12, 1898);
+    			add_location(path, file, 64, 12, 1907);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "fill", "#212121");
     			attr_dev(svg, "viewBox", "0 0 24 24");
@@ -14114,7 +14113,7 @@ var app = (function () {
     			attr_dev(svg, "width", "1em");
     			attr_dev(svg, "height", "1em");
     			attr_dev(svg, "class", "mr-2 text-xl cursor-pointer");
-    			add_location(svg, file, 52, 10, 1559);
+    			add_location(svg, file, 52, 10, 1568);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -14153,7 +14152,7 @@ var app = (function () {
     			h1 = element("h1");
     			h1.textContent = "Svelte Toasts";
     			attr_dev(h1, "class", "text-2xl block text-left text-center");
-    			add_location(h1, file, 115, 8, 5242);
+    			add_location(h1, file, 115, 8, 5251);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -14174,7 +14173,7 @@ var app = (function () {
     	return block;
     }
 
-    // (141:6) <Route path="/">
+    // (137:6) <Route path="/">
     function create_default_slot_7(ctx) {
     	let demo;
     	let current;
@@ -14206,14 +14205,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(141:6) <Route path=\\\"/\\\">",
+    		source: "(137:6) <Route path=\\\"/\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (144:6) <Route path="store">
+    // (140:6) <Route path="store">
     function create_default_slot_6(ctx) {
     	let storedocs;
     	let current;
@@ -14245,14 +14244,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(144:6) <Route path=\\\"store\\\">",
+    		source: "(140:6) <Route path=\\\"store\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (147:6) <Route path="toast-container">
+    // (143:6) <Route path="toast-container">
     function create_default_slot_5(ctx) {
     	let toastcontainerdocs;
     	let current;
@@ -14284,14 +14283,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(147:6) <Route path=\\\"toast-container\\\">",
+    		source: "(143:6) <Route path=\\\"toast-container\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (150:6) <Route path="toast">
+    // (146:6) <Route path="toast">
     function create_default_slot_4(ctx) {
     	let toastdocs;
     	let current;
@@ -14323,14 +14322,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(150:6) <Route path=\\\"toast\\\">",
+    		source: "(146:6) <Route path=\\\"toast\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (153:6) <Route path="flat-toast">
+    // (149:6) <Route path="flat-toast">
     function create_default_slot_3(ctx) {
     	let flattoastdocs;
     	let current;
@@ -14362,14 +14361,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(153:6) <Route path=\\\"flat-toast\\\">",
+    		source: "(149:6) <Route path=\\\"flat-toast\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (156:6) <Route path="bootstrap-toast">
+    // (152:6) <Route path="bootstrap-toast">
     function create_default_slot_2(ctx) {
     	let bootstraptoastdocs;
     	let current;
@@ -14401,14 +14400,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(156:6) <Route path=\\\"bootstrap-toast\\\">",
+    		source: "(152:6) <Route path=\\\"bootstrap-toast\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (159:6) <Route path="custom-toast">
+    // (155:6) <Route path="custom-toast">
     function create_default_slot_1(ctx) {
     	let customtoastdocs;
     	let current;
@@ -14440,7 +14439,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(159:6) <Route path=\\\"custom-toast\\\">",
+    		source: "(155:6) <Route path=\\\"custom-toast\\\">",
     		ctx
     	});
 
@@ -14453,7 +14452,7 @@ var app = (function () {
     	let div1;
     	let div0;
     	let t0;
-    	let svg0;
+    	let svg;
     	let path0;
     	let path1;
     	let path2;
@@ -14465,25 +14464,23 @@ var app = (function () {
     	let div3;
     	let div2;
     	let a;
-    	let svg1;
-    	let path5;
-    	let t3;
+    	let t4;
     	let div4;
     	let sidebar;
-    	let t4;
+    	let t5;
     	let main;
     	let route0;
-    	let t5;
-    	let route1;
     	let t6;
-    	let route2;
+    	let route1;
     	let t7;
-    	let route3;
+    	let route2;
     	let t8;
-    	let route4;
+    	let route3;
     	let t9;
-    	let route5;
+    	let route4;
     	let t10;
+    	let route5;
+    	let t11;
     	let route6;
     	let current;
 
@@ -14579,7 +14576,7 @@ var app = (function () {
     			div0 = element("div");
     			if_block.c();
     			t0 = space();
-    			svg0 = svg_element("svg");
+    			svg = svg_element("svg");
     			path0 = svg_element("path");
     			path1 = svg_element("path");
     			path2 = svg_element("path");
@@ -14591,69 +14588,62 @@ var app = (function () {
     			div3 = element("div");
     			div2 = element("div");
     			a = element("a");
-    			svg1 = svg_element("svg");
-    			path5 = svg_element("path");
-    			t3 = space();
+    			a.textContent = "Star";
+    			t4 = space();
     			div4 = element("div");
     			create_component(sidebar.$$.fragment);
-    			t4 = space();
+    			t5 = space();
     			main = element("main");
     			create_component(route0.$$.fragment);
-    			t5 = space();
-    			create_component(route1.$$.fragment);
     			t6 = space();
-    			create_component(route2.$$.fragment);
+    			create_component(route1.$$.fragment);
     			t7 = space();
-    			create_component(route3.$$.fragment);
+    			create_component(route2.$$.fragment);
     			t8 = space();
-    			create_component(route4.$$.fragment);
+    			create_component(route3.$$.fragment);
     			t9 = space();
-    			create_component(route5.$$.fragment);
+    			create_component(route4.$$.fragment);
     			t10 = space();
+    			create_component(route5.$$.fragment);
+    			t11 = space();
     			create_component(route6.$$.fragment);
-    			add_location(div0, file, 50, 6, 1524);
+    			add_location(div0, file, 50, 6, 1533);
     			attr_dev(path0, "d", "m287.878906 373.824219h-234.425781c-29.472656 0-53.453125-23.980469-53.453125-53.453125v-234.425782c0-29.476562 23.980469-53.453124 53.453125-53.453124h223.464844c3.769531 0 6.824219 3.050781 6.824219 6.824218 0 3.773438-3.054688 6.828125-6.824219 6.828125h-223.464844c-21.945313 0-39.800781 17.851563-39.800781 39.800781v234.425782c0 21.945312 17.855468 39.796875 39.800781 39.796875h234.425781c21.945313 0 39.800782-17.851563 39.800782-39.796875v-206.117188c0-3.773437 3.054687-6.824218 6.824218-6.824218 3.769532 0 6.828125 3.050781 6.828125 6.824218v206.117188c0 29.472656-23.980469 53.453125-53.453125 53.453125zm0 0");
-    			add_location(path0, file, 102, 8, 2862);
+    			add_location(path0, file, 102, 8, 2871);
     			attr_dev(path1, "d", "m327.628906 119.421875c-15.1875 0-29.578125-5.671875-40.710937-16.105469-11.625-10.886718-18.3125-25.652344-18.832031-41.574218-1.074219-32.859376 24.78125-60.464844 57.644531-61.539063 15.828125-.660156 31.089843 5.179687 42.710937 16.074219 11.625 10.886718 18.3125 25.652344 18.832032 41.570312 1.070312 32.859375-24.785157 60.46875-57.644532 61.542969-.664062.027344-1.332031.03125-2 .03125zm.085938-105.597656c-.511719 0-1.023438.007812-1.539063.019531-25.335937.832031-45.273437 22.121094-44.441406 47.460938.398437 12.273437 5.554687 23.652343 14.515625 32.046874 8.964844 8.398438 20.675781 12.6875 32.933594 12.398438 25.335937-.832031 45.273437-22.117188 44.441406-47.460938-.398438-12.269531-5.554688-23.652343-14.515625-32.042968-8.585937-8.046875-19.683594-12.421875-31.394531-12.421875zm0 0");
-    			add_location(path1, file, 104, 10, 3514);
+    			add_location(path1, file, 104, 10, 3523);
     			attr_dev(path2, "d", "m65.265625 178.847656c-4-3.996094-10.484375-3.996094-14.480469 0-4 4-4 10.484375 0 14.480469 3.996094 4 10.480469 4 14.480469 0 4-3.996094 4-10.480469 0-14.480469zm0 0");
-    			add_location(path2, file, 106, 10, 4349);
+    			add_location(path2, file, 106, 10, 4358);
     			attr_dev(path3, "d", "m283.714844 178.851562c-3.996094-4-10.480469-4-14.480469 0-3.996094 3.996094-3.996094 10.480469 0 14.480469 4 4 10.484375 4 14.480469 0 4-4 4-10.484375 0-14.480469zm0 0");
-    			add_location(path3, file, 108, 10, 4547);
+    			add_location(path3, file, 108, 10, 4556);
     			attr_dev(path4, "d", "m218.453125 218.015625c-.105469-10.710937-95.464844-10.710937-95.570313 0v.230469c0 18.058594 21.394532 32.699218 47.785157 32.699218s47.785156-14.640624 47.785156-32.699218c0-.078125 0-.152344 0-.230469zm-48.9375 19.273437c-11.3125 0-20.480469-3.054687-20.480469-6.824218 0-3.769532 9.167969-6.828125 20.480469-6.828125 11.308594 0 20.480469 3.058593 20.480469 6.828125 0 3.769531-9.167969 6.824218-20.480469 6.824218zm0 0");
-    			add_location(path4, file, 110, 10, 4746);
-    			attr_dev(svg0, "class", "text-5xl mx-4");
-    			attr_dev(svg0, "height", "1em");
-    			attr_dev(svg0, "fill", "#e63e08");
-    			attr_dev(svg0, "width", "1em");
-    			attr_dev(svg0, "viewBox", "0 -7 387.30393 387");
-    			attr_dev(svg0, "xmlns", "http://www.w3.org/2000/svg");
-    			add_location(svg0, file, 94, 6, 2667);
+    			add_location(path4, file, 110, 10, 4755);
+    			attr_dev(svg, "class", "text-5xl mx-4");
+    			attr_dev(svg, "height", "1em");
+    			attr_dev(svg, "fill", "#e63e08");
+    			attr_dev(svg, "width", "1em");
+    			attr_dev(svg, "viewBox", "0 -7 387.30393 387");
+    			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
+    			add_location(svg, file, 94, 6, 2676);
     			attr_dev(div1, "class", "flex items-center");
-    			add_location(div1, file, 49, 4, 1486);
-    			attr_dev(path5, "d", "m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z");
-    			attr_dev(path5, "fill", "#212121");
-    			add_location(path5, file, 128, 13, 5701);
-    			attr_dev(svg1, "class", "text-3xl");
-    			attr_dev(svg1, "enable-background", "new 0 0 24 24");
-    			attr_dev(svg1, "height", "1em");
-    			attr_dev(svg1, "viewBox", "0 0 24 24");
-    			attr_dev(svg1, "width", "1em");
-    			attr_dev(svg1, "xmlns", "http://www.w3.org/2000/svg");
-    			add_location(svg1, file, 121, 10, 5480);
+    			add_location(div1, file, 49, 4, 1495);
+    			attr_dev(a, "class", "github-button");
     			attr_dev(a, "href", "https://github.com/mzohaibqc/svelte-toasts");
-    			attr_dev(a, "target", "_blank");
-    			add_location(a, file, 120, 8, 5400);
+    			attr_dev(a, "data-color-scheme", "no-preference: dark; light: dark; dark: light;");
+    			attr_dev(a, "data-size", "large");
+    			attr_dev(a, "data-show-count", "true");
+    			attr_dev(a, "aria-label", "Star mzohaibqc/svelte-toasts on GitHub");
+    			add_location(a, file, 122, 8, 5488);
     			attr_dev(div2, "class", "");
-    			add_location(div2, file, 119, 6, 5377);
-    			attr_dev(div3, "class", "flex items-center");
-    			add_location(div3, file, 118, 4, 5339);
-    			attr_dev(header, "class", "flex justify-between px-5 py-3 shadow");
+    			add_location(div2, file, 121, 6, 5465);
+    			attr_dev(div3, "class", "flex items-center absolute sm:relative -bottom-9 right-0 sm:right-auto sm:bottom-auto");
+    			add_location(div3, file, 118, 4, 5348);
+    			attr_dev(header, "class", "flex justify-between px-5 py-3 shadow relative");
     			add_location(header, file, 48, 2, 1427);
-    			attr_dev(main, "class", "svelte-qpluaa");
-    			add_location(main, file, 139, 4, 6631);
-    			attr_dev(div4, "class", "content svelte-qpluaa");
-    			add_location(div4, file, 137, 2, 6582);
+    			attr_dev(main, "class", "svelte-15n1apd");
+    			add_location(main, file, 135, 4, 5888);
+    			attr_dev(div4, "class", "content svelte-15n1apd");
+    			add_location(div4, file, 133, 2, 5839);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, header, anchor);
@@ -14661,37 +14651,35 @@ var app = (function () {
     			append_dev(div1, div0);
     			if_block.m(div0, null);
     			append_dev(div1, t0);
-    			append_dev(div1, svg0);
-    			append_dev(svg0, path0);
-    			append_dev(svg0, path1);
-    			append_dev(svg0, path2);
-    			append_dev(svg0, path3);
-    			append_dev(svg0, path4);
+    			append_dev(div1, svg);
+    			append_dev(svg, path0);
+    			append_dev(svg, path1);
+    			append_dev(svg, path2);
+    			append_dev(svg, path3);
+    			append_dev(svg, path4);
     			append_dev(div1, t1);
     			mount_component(link, div1, null);
     			append_dev(header, t2);
     			append_dev(header, div3);
     			append_dev(div3, div2);
     			append_dev(div2, a);
-    			append_dev(a, svg1);
-    			append_dev(svg1, path5);
-    			insert_dev(target, t3, anchor);
+    			insert_dev(target, t4, anchor);
     			insert_dev(target, div4, anchor);
     			mount_component(sidebar, div4, null);
-    			append_dev(div4, t4);
+    			append_dev(div4, t5);
     			append_dev(div4, main);
     			mount_component(route0, main, null);
-    			append_dev(main, t5);
-    			mount_component(route1, main, null);
     			append_dev(main, t6);
-    			mount_component(route2, main, null);
+    			mount_component(route1, main, null);
     			append_dev(main, t7);
-    			mount_component(route3, main, null);
+    			mount_component(route2, main, null);
     			append_dev(main, t8);
-    			mount_component(route4, main, null);
+    			mount_component(route3, main, null);
     			append_dev(main, t9);
-    			mount_component(route5, main, null);
+    			mount_component(route4, main, null);
     			append_dev(main, t10);
+    			mount_component(route5, main, null);
+    			append_dev(main, t11);
     			mount_component(route6, main, null);
     			current = true;
     		},
@@ -14797,7 +14785,7 @@ var app = (function () {
     			if (detaching) detach_dev(header);
     			if_block.d();
     			destroy_component(link);
-    			if (detaching) detach_dev(t3);
+    			if (detaching) detach_dev(t4);
     			if (detaching) detach_dev(div4);
     			destroy_component(sidebar);
     			destroy_component(route0);
