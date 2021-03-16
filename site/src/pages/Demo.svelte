@@ -97,7 +97,7 @@
           />
         </label>
         <div class="flex space-x-4 flex-row align-center mt-4">
-          <Button autoFocus on:click={addToast}>Show Toast</Button>
+          <Button on:click={addToast}>Show Toast</Button>
           <!-- <button class="ring ring-blue-600 focus:ring-offset-1 ring-offset-blue-100 h-8 px-4 bg-blue-600 focus:bg-blue-600 border-0 focus:outline-none text-white" on:click={addToast}>Show Toast</button> -->
           <button
             class="ring ring-red-600 focus:ring-offset-1 ring-offset-red-100 h-8 px-4 bg-red-600 focus:bg-red-600 border-0 focus:outline-none text-white"

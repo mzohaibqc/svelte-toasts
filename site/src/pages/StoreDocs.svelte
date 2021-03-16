@@ -134,7 +134,7 @@
       code={`
       import { toasts, ToastContainer } from 'svelte-toasts';
     
-      <ToastContainer {toasts} placement="top-right" let:data>
+      <ToastContainer placement="top-right" let:data>
         <FlatToast {data} />
         <!-- Or you can provide your own toast component -->
         <!-- <YourOwnComponent {data} /> -->

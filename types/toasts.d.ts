@@ -1,5 +1,5 @@
 import { Writable } from 'svelte/store';
-import { ToastProps } from 'svelte-toasts/types/common';
+import { ToastProps } from './common';
 
 export interface ToastStore extends Writable<ToastProps[]> {
   add(options: Partial<ToastProps>): ToastProps;

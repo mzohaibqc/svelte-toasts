@@ -1,6 +1,6 @@
 /// <reference types="svelte" />
 import { SvelteComponentTyped } from 'svelte';
-import { Placement, Theme, ToastType } from 'svelte-toasts/types/common';
+import { Placement, Theme, ToastType, ToastProps } from './common';
 
 export interface ToastContainerProps {
   /**
@@ -37,7 +37,7 @@ export interface ToastContainerProps {
    * Width of all toasts
    * @default '320px'
    */
-  width?: 'string';
+  width?: string;
 }
 
 export default class ToastContainer extends SvelteComponentTyped<

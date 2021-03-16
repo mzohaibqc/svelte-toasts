@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "name": "svelte-toasts",
   "description": "A highly configurable notification/toast component with individual toast state management capabilities.",
   "main": "dist/svelte-toasts.js",

@@ -53,7 +53,7 @@
     code={`  <script>
   
   <button on:click={showToast}>Show Toast</button>
-  <ToastContainer {toasts} let:data={data}>
+  <ToastContainer let:data={data}>
     <div class="my-toast {data.type}">
       <button on:click={data.remove}>Close</button>
       <p class="title">{data.title}</p>
@@ -120,7 +120,7 @@
     code={`  <script>
   
   <button on:click={showToast}>Show Toast</button>
-  <ToastContainer {toasts} let:data={data}>
+  <ToastContainer let:data={data}>
     <MyToast {data} />
   </ToastContainer>
   `}

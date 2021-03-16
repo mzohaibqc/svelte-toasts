@@ -3810,10 +3810,10 @@ svelte-preprocess@^4.6.9:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte-toasts@0.1.3:
-  version "0.1.3"
-  resolved "http://localhost:4873/svelte-toasts/-/svelte-toasts-0.1.3.tgz#b1dcc510215810fe09a41d658aa37ecb9f548195"
-  integrity sha512-8W/X5WUHE8WTkU57IsEgLFy90lcTtt+S+hQ9hV3cGtjPLvHEH0meJ6S+XeqSzG1s21KvwVT0+tfWQcuwjbiJOA==
+svelte-toasts@1.1.1:
+  version "1.1.1"
+  resolved "http://localhost:4873/svelte-toasts/-/svelte-toasts-1.1.1.tgz#70801719e766732827fa30d4ae841947e4fd2b69"
+  integrity sha512-JdL90nJrjZH580ZpK9ZwGO32qHOvc8pQ2MoC4K4Oi9Gp+Oq3JGodksMdR0xfr0RICcrcgDEu4fpGkLfpa384Yg==
 
 svelte2tsx@^0.1.151:
   version "0.1.181"

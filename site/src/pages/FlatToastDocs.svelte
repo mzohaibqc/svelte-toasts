@@ -63,7 +63,7 @@
     code={`  <script>
   
   <button on:click={showToast}>Show Toast</button>
-  <ToastContainer {toasts} let:data={data}>
+  <ToastContainer let:data={data}>
     <FlatToast {data} /> <!-- default slot as toast component -->
   </ToastContainer>
   `}

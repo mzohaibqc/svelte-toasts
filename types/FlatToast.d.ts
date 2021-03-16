@@ -1,6 +1,6 @@
 /// <reference types="svelte" />
 import { SvelteComponentTyped } from 'svelte';
-import { Theme, ToastProps } from 'svelte-toasts/types/common';
+import { Theme, ToastProps } from './common';
 
 export interface FlatToastProps {
   /**

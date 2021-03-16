@@ -113,7 +113,7 @@
   <main class="flex flex-col container items-center mt-10">
     <h1 class="text-lg block text-center">Svelte Toasts</h1>
     <button on:click={showToast}>Show Toast</button>
-    <ToastContainer {toasts} let:data={data}>
+    <ToastContainer let:data={data}>
       <FlatToast {data} />
     </ToastContainer>
   </main>

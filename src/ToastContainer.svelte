@@ -53,7 +53,7 @@
   export let duration = 3000;
   /**
    * Width of all toasts
-   * @type { 'string' }
+   * @type { string }
    */
   export let width = '320px';
 
