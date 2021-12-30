@@ -362,6 +362,10 @@
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
   }
+  .st-toast-close-btn {
+    background: transparent;
+    border: 0;
+  }
   .st-toast-header .st-toast-title {
     flex: 1;
     text-align: left;
@@ -371,8 +375,6 @@
   .st-toast-header .st-toast-close-btn {
     margin-right: -0.375rem;
     margin-left: 0.75rem;
-    background: transparent;
-    border: 0;
   }
   .st-toast-body {
     position: relative;
