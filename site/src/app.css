@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-600;
+}
+
+.sidebar {
+  @apply flex flex-col h-full bg-slate-100 divide-y divide-slate-300 border-r border-slate-300;
+}
+
+.sidebar > a {
+  @apply px-4 py-2 hover:bg-slate-50 hover:shadow-md transition;
+}
+
+.sidebar > a.active {
+  @apply border-r-4;
+}
+
+table {
+  @apply rounded-md overflow-hidden bg-slate-100;
+}
+
+thead {
+  @apply bg-slate-200 bg-opacity-40;
+}
+
+th,
+td {
+  @apply text-left px-4 py-2;
+}
+
+pre {
+  @apply bg-slate-100 rounded-md p-4 overflow-x-auto;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  @apply focus:outline-none px-3 py-1.5 rounded-md border border-slate-300 text-sm focus:border-slate-500 transition w-full;
+}
+
+button {
+  @apply px-3 py-1.5 rounded-md transition;
+}
