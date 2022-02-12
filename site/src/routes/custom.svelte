@@ -45,7 +45,7 @@
   <pre>{`// MyToast.svelte
 <script>
   export let data;
-<script>
+</script>
 
 <div class="my-toast {data.type}">
   <button on:click={data.remove}>Close</button>
