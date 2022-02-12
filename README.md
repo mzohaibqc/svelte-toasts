@@ -1,4 +1,4 @@
-<img src="./site/public/images/logo.svg" alt="Logo" style="height: 100px; display:block; margin: 0 auto;" />
+<img src="./site/static/images/logo.svg" alt="Logo" style="height: 100px; display:block; margin: 0 auto;" />
 
 # Svelte-Toasts
 
@@ -10,20 +10,20 @@ https://mzohaibqc.github.io/svelte-toasts/
 
 REPL: https://svelte.dev/repl/ff34bad88213493ab878c71497c01152?version=3.35.0
 
-## <img src="./site/public/images/dynamic-toast.gif" alt="Dynamic Toast">
+## <img src="./site/static/images/dynamic-toast.gif" alt="Dynamic Toast">
 
 #### Flat Toast
 
 <p float="left">
-    <img src="./site/public/images/flat-dark.png" width="320px" alt="Light theme toasts">
-    <img src="./site/public/images/flat-light.png" width="320px" alt="Dark theme toasts">
+    <img src="./site/static/images/flat-dark.png" width="320px" alt="Light theme toasts">
+    <img src="./site/static/images/flat-light.png" width="320px" alt="Dark theme toasts">
 </p>
 
 #### Bootstrap Toast
 
 <p float="left">
-    <img src="./site/public/images/bootstrap-dark.png" width="320px" alt="Light theme toasts">
-    <img src="./site/public/images/bootstrap-light.png" width="320px" alt="Dark theme toasts">
+    <img src="./site/static/images/bootstrap-dark.png" width="320px" alt="Light theme toasts">
+    <img src="./site/static/images/bootstrap-light.png" width="320px" alt="Dark theme toasts">
 </p>
 
 ## Install
@@ -261,38 +261,22 @@ export interface ToastStore extends Writable<ToastProps[]> {
   success(options: Partial<ToastProps>): ToastProps;
   success(description: string): ToastProps;
   success(description: string, options: Partial<ToastProps>): ToastProps;
-  success(
-    title: string,
-    description: string,
-    options?: Partial<ToastProps>
-  ): ToastProps;
+  success(title: string, description: string, options?: Partial<ToastProps>): ToastProps;
 
   info(options: Partial<ToastProps>): ToastProps;
   info(description: string): ToastProps;
   info(description: string, options: Partial<ToastProps>): ToastProps;
-  info(
-    title: string,
-    description: string,
-    options?: Partial<ToastProps>
-  ): ToastProps;
+  info(title: string, description: string, options?: Partial<ToastProps>): ToastProps;
 
   error(options: Partial<ToastProps>): ToastProps;
   error(description: string): ToastProps;
   error(description: string, options: Partial<ToastProps>): ToastProps;
-  error(
-    title: string,
-    description: string,
-    options?: Partial<ToastProps>
-  ): ToastProps;
+  error(title: string, description: string, options?: Partial<ToastProps>): ToastProps;
 
   warning(options: Partial<ToastProps>): ToastProps;
   warning(description: string): ToastProps;
   warning(description: string, options: Partial<ToastProps>): ToastProps;
-  warning(
-    title: string,
-    description: string,
-    options?: Partial<ToastProps>
-  ): ToastProps;
+  warning(title: string, description: string, options?: Partial<ToastProps>): ToastProps;
 
   getById(uid: number): ToastProps;
   clearAll(): void;
