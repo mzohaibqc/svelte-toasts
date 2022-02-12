@@ -5,7 +5,7 @@
   import "../app.css";
 
   const links = [
-    { url: "", name: "Demo" },
+    { url: "/", name: "Demo" },
     { url: "/store", name: "Store" },
     { url: "/toastcontainer", name: "ToastContainer" },
     { url: "/toast", name: "Toast" },
@@ -25,7 +25,10 @@
       </a>
     </div>
     {#each links as link}
-      <a class:active={$page.url.pathname == `${base}${link.url}`} href={`${base}${link.url}`}>{link.name}</a>
+      <a
+        class:active={$page.url.pathname == `${base}${link.url}` || `${$page.url.pathname}/` == `${base}${link.url}`}
+        href={`${base}${link.url}`}>{link.name}</a
+      >
     {/each}
   </div>
   <div class="p-4 overflow-y-auto">
