@@ -6,7 +6,7 @@
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -t -d build"
   },
   "devDependencies": {
     "@codewithshin/svelte-heroicons": "^1.1.3",
