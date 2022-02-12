@@ -32,5 +32,15 @@ td {
 }
 
 pre {
-  @apply bg-slate-100 rounded-md p-4;
+  @apply bg-slate-100 rounded-md p-4 overflow-x-auto;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  @apply focus:outline-none px-3 py-1.5 rounded-md border border-slate-300 text-sm focus:border-slate-500 transition w-full;
+}
+
+button {
+  @apply px-3 py-1.5 rounded-md transition;
 }
