@@ -32,8 +32,8 @@
       </label>
       <div class="grid grid-cols-3 gap-3">
         <button type="submit" class="bg-sky-100 hover:bg-sky-200 text-slate-600">Show Toast</button>
-        <button class="bg-red-100 hover:bg-red-200 text-slate-600">Clear All</button>
-        <button class="bg-red-100 hover:bg-red-200 text-slate-600">Clear Last</button>
+        <button on:click|preventDefault={() => toasts.clearAll()} class="bg-red-100 hover:bg-red-200 text-slate-600">Clear All</button>
+        <button on:click|preventDefault={() => toasts.clearLast()} class="bg-red-100 hover:bg-red-200 text-slate-600">Clear Last</button>
       </div>
     </div>
     <div class="flex flex-col gap-3">
