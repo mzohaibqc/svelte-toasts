@@ -3,6 +3,7 @@ import { writable, get } from 'svelte/store';
 function notificationsStore(initialValue = []) {
   const store = writable(initialValue);
   const { set, update, subscribe } = store;
+  let idCounter = 0;
   let defaultOptions = {
     duration: 3000,
     placement: 'bottom-right',
@@ -18,7 +19,7 @@ function notificationsStore(initialValue = []) {
       ...rest
     } = { ...defaultOptions, ...options };
 
-    const uid = Date.now();
+    const uid = ++idCounter;
     const obj = {
       ...rest,
       uid,
