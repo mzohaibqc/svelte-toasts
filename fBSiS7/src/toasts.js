@@ -1,5 +1,5 @@
 import { writable, get } from 'svelte/store';
-import * as uuid from 'uuid';
+import uuid from 'uuid';
 
 function notificationsStore(initialValue = []) {
   const store = writable(initialValue);

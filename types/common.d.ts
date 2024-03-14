@@ -11,7 +11,7 @@ export type Placement =
   | 'center-center';
 
 export interface ToastProps {
-  uid: number;
+  key: string;
   title?: string;
   description: string;
   duration: number;

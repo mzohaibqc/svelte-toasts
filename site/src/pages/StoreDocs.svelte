@@ -38,10 +38,10 @@
         'This function removes one toast (if any) that was generated at the end',
     },
     {
-      name: 'getById',
+      name: 'getByKey',
       type: 'Function',
       description:
-        'This function returns toast data for given id. Every toast has a unique uid',
+        'This function returns toast data for given key. Every toast has a unique key',
     },
     {
       name: 'setDefaults',
@@ -113,7 +113,7 @@
     setTimeout(() => {
       toast.remove();
       // or
-      // toasts.getById(toast.uid).remove();
+      // toasts.getById(toast.key).remove();
     }, 3000);
   
     toasts.error('Something went wrong. Try again later.');

@@ -76,7 +76,7 @@ Every `toast` object has following structure:
 {
   title: "Welcome",
   description: "Thanks for trying svelte-toasts!",
-  uid: 1615153277482,
+  key: "something unique thing", // optional, will be generated randomly if not provided
   placement: "bottom-right",
   type: "success",
   theme: "dark",
@@ -128,7 +128,7 @@ import { toasts } from 'svelte-toasts';
 
 Store `toasts` contains an array of toasts objects. It has following methods:
 
-<table class="min-w-full divide-y divide-gray-200"><thead class="bg-gray-100"><tr><th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Name </th><th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Type </th><th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Description </th></tr></thead> <tbody class="bg-white divide-y divide-gray-200"><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">add</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This is key function to show toast. You can pass options and modify the generated toast. It will return toast object which you can use to modify or remove that specific toast programmatically, e.g. toast1.update({ title: 'New Title'})</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">removeAll</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This function removes all toasts and clears store state to empty array</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">removeLast</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This function removes one toast (if any) that was generated at the end</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">getById</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This function returns toast data for given id. Every toast has a unique uid</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">setDefaults</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This function sets default options so you don't need to pass those options again and again, e.g. theme, placement etc.</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">success</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Show success/green toast.</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">info</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Show info/blue toast.</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">error</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Show error/red toast.</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">warning</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Show warning/orange toast.</div></td> </tr></tbody></table>
+<table class="min-w-full divide-y divide-gray-200"><thead class="bg-gray-100"><tr><th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Name </th><th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Type </th><th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Description </th></tr></thead> <tbody class="bg-white divide-y divide-gray-200"><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">add</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This is key function to show toast. You can pass options and modify the generated toast. It will return toast object which you can use to modify or remove that specific toast programmatically, e.g. toast1.update({ title: 'New Title'})</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">removeAll</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This function removes all toasts and clears store state to empty array</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">removeLast</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This function removes one toast (if any) that was generated at the end</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">getById</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This function returns toast data for given id. Every toast has a unique key</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">setDefaults</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">This function sets default options so you don't need to pass those options again and again, e.g. theme, placement etc.</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">success</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Show success/green toast.</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">info</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Show info/blue toast.</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">error</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Show error/red toast.</div></td> </tr><tr><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 text-bold">warning</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Function</div></td><td class="px-6 py-4" style=""><div class="text-sm text-gray-600 undefined">Show warning/orange toast.</div></td> </tr></tbody></table>
 
 ## `BootstrapToast`
 
@@ -238,7 +238,7 @@ export type Placement =
 
 ```ts
 export interface ToastProps {
-  uid: number;
+  key: string;
   title?: string;
   description: string;
   duration: number;
@@ -261,40 +261,24 @@ export interface ToastStore extends Writable<ToastProps[]> {
   success(options: Partial<ToastProps>): ToastProps;
   success(description: string): ToastProps;
   success(description: string, options: Partial<ToastProps>): ToastProps;
-  success(
-    title: string,
-    description: string,
-    options?: Partial<ToastProps>
-  ): ToastProps;
+  success(title: string, description: string, options?: Partial<ToastProps>): ToastProps;
 
   info(options: Partial<ToastProps>): ToastProps;
   info(description: string): ToastProps;
   info(description: string, options: Partial<ToastProps>): ToastProps;
-  info(
-    title: string,
-    description: string,
-    options?: Partial<ToastProps>
-  ): ToastProps;
+  info(title: string, description: string, options?: Partial<ToastProps>): ToastProps;
 
   error(options: Partial<ToastProps>): ToastProps;
   error(description: string): ToastProps;
   error(description: string, options: Partial<ToastProps>): ToastProps;
-  error(
-    title: string,
-    description: string,
-    options?: Partial<ToastProps>
-  ): ToastProps;
+  error(title: string, description: string, options?: Partial<ToastProps>): ToastProps;
 
   warning(options: Partial<ToastProps>): ToastProps;
   warning(description: string): ToastProps;
   warning(description: string, options: Partial<ToastProps>): ToastProps;
-  warning(
-    title: string,
-    description: string,
-    options?: Partial<ToastProps>
-  ): ToastProps;
+  warning(title: string, description: string, options?: Partial<ToastProps>): ToastProps;
 
-  getById(uid: number): ToastProps;
+  getByKey(key: string): ToastProps;
   clearAll(): void;
   clearLast(): void;
   setDefaults(options: Partial<ToastProps>): void;

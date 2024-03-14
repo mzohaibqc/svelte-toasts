@@ -8,7 +8,7 @@
    * @typedef {'success' | 'info' | 'error' | 'warning'} ToastType
    * @typedef {'bottom-right' | 'bottom-left' | 'top-right' | 'top-left' | 'top-center' | 'bottom-center' | 'center-center'} Placement
    * @typedef {{
-      uid: number;
+      key: string;
       title?: string;
       description: string;
       duration: number;
@@ -96,7 +96,7 @@
     <ul>
       {#each $toasts
         .filter((n) => n.placement === placement)
-        .reverse() as toast (toast.uid)}
+        .reverse() as toast (toast.key)}
         <li
           animate:flip
           out:fly={{ y: flyMap[toast.placement], duration: 1000 }}
