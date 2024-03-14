@@ -123,7 +123,7 @@
     {
       title: "Welcome",
       description: "Thanks for trying svelte-toasts!",
-      uid: 1615153277482,
+      key: "something unique thing", // optional, will be generated randomly if not provided
       placement: "bottom-right",
       type: "success",
       theme: "dark",
